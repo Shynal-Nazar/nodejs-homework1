@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-homework1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index",
+    "get": "node index.js --action list",
+    "getById": "node index.js --action get --id 5",
+    "addContact": "node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-22",
+    "removeById": "node index.js --action remove --id=3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shynal-Nazar/nodejs-homework1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shynal-Nazar/nodejs-homework1/issues"
+  },
+  "homepage": "https://github.com/Shynal-Nazar/nodejs-homework1#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "commander": "^9.3.0",
+    "uuid": "^8.3.2"
+  }
+}
